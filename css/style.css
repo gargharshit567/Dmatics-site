@@ -1,0 +1,252 @@
+body
+{
+ margin:0px;
+}
+ 
+   
+ .outer
+  {
+   
+   width:1240px;
+   margin:0px auto;
+   background-color:#05F;
+   border:3px solid black;   
+  }
+ 
+ .header
+ {
+   height:148px;
+   width:1240px;
+   background-color:#003;
+   float:left;
+   border-bottom:2px dashed black;
+   background-image:url(../images/002.png);
+   background-size:100% 100%; 
+ }
+.hleft
+{
+ width:150px;
+ height:100px;
+ background-color:#eee;
+ float:left;
+ margin:25px 50px;
+ border:2px solid black;
+ transition:1s;
+}
+.hleft:hover
+{
+ margin-left:80px;
+ transition:1s;
+}
+red
+{
+ color:red;
+ font-size:70px;
+ font-family:algerian;
+}
+blue
+{
+  color:blue;
+  font-size:40px;
+  font-family:algerian;
+}
+rd
+{
+ color:red;
+}
+
+.hright
+{
+   width:300px;
+   height:80px;
+   margin:35px 30px;
+   float:right;
+   text-align:center;
+   font-weight:bold;
+   font-style:italic;
+   
+   font-family:arial; 
+   transition:1s;
+ }
+ .hright:hover
+{
+ margin-right:80px;
+ margin-top:80px;
+ transition:1s;
+}
+.menubar
+{
+   height:80px;
+   width:1240px;
+   float:left;
+   background-color:#009;
+}
+.menus
+ {
+   height:40px;
+   width:100px;
+   float:left;
+   margin:20px 30px;
+   padding-top:10px;
+   border:2px solid #e52;
+   box-sizing:border-box;
+   background-color:#eee;
+   text-align:center;
+   font-weight:bold;
+   font-family:arial;
+   border-radius:10px;
+   color:blue;
+  }
+.menus:hover
+{
+ background-color:#Ff0;
+ font-size:12px;
+}
+.slider
+{
+ height:250px;
+ width:1240px;
+ float:left;
+ background-color:#666;
+}
+.main
+{
+	width:1240px;
+	
+	background-color:#eee;
+	float:left;
+}
+	
+.lmain
+{
+ 
+ width:200px;
+ height:340px;
+ float:left;
+ 
+ background-color:#eee;
+}
+.rmain
+{
+ 
+ width:1030px;
+ 
+ padding-left:4px;
+ padding-bottom:30px;
+ box-sizing:border-box;
+ float:right;
+ border-left:10px solid black;
+ background-color:#eee;
+}
+.formrow
+{
+ height:50px;
+ width:900px;
+ background-color:#bbb;
+ float:left;
+ margin:10px;
+}
+.formlable
+{
+ height:50px;
+ width:198px;
+ float:left;
+ text-align:center;
+ padding-top:5px;
+ box-sizing:border-box;
+ font-size:32px;
+ color:#000;
+ background-color:#bbb;
+ border:solid #000 1px;
+}
+.forminfo
+{
+ border:#000 solid 1px;	
+ height:50px;
+ width:700px;
+ float:right;
+ background-color:#bbb;
+}
+.btn
+{
+ height:20px;
+ width:100px;
+ border:#609 solid 1px;
+ background-color:#3F3;
+ margin:15px 250px 15px 15px;
+ border-radius;
+}
+.btnr
+{
+ height:20px;
+ width:100px;
+ border:#609 solid 1px;
+ background-color:#3F3;
+ margin:15px 2px 15px 200px;
+ border-radius;
+ float:left;
+}
+}
+ 
+.input
+{
+ height:30px;
+ width:500px;
+ margin:10px 0px;
+}	
+.gimage
+{
+  width:200px;
+  height:150px;
+  background-color:#ddd;
+  margin:50px 0px 0px 50px;
+  float:left;
+  transition:1s;
+}
+.gimage:hover
+{
+	transform:scale(1.5,1.5);
+   transition:1s;
+   opacity:0.8;
+}
+.lmenus
+{
+   height:30px;
+   width:120px;
+   float:left;
+   margin:30px 40px;
+   padding-top:5px;
+   border:2px solid black;
+   box-sizing:border-box;
+   background-color:#FF9;
+   color:#CFF;
+   text-align:center;
+   font-weight:bold;
+   font-family:elephant;
+}
+.lmenus:hover
+{
+ font-size:10px;
+ background-color:#FFF;
+}
+.footer
+{
+ height:150px;
+ width:1240px;
+ clear:both;
+ float:left;
+ background-color:#abc;
+ background-image:url(../images/002.png);
+ background-size:100% 100%;
+}
+.fmenus
+{
+ height:50px;
+ width:150px;
+ float:left;
+ background-color:#CF3;
+ margin:50px 10px;
+ text-align:center;
+ padding-top:20px;
+ box-sizing:border-box;
+ }   
